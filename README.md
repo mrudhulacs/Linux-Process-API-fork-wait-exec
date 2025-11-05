@@ -50,7 +50,7 @@ int main() {
 
 
 ## 2. C Program to execute Linux system commands using Linux API system calls exec() , exit() , wait() family
-
+```
 #include <stdlib.h>
 #include <sys/wait.h>
 #include <sys/types.h>
@@ -74,7 +74,7 @@ printf("Running ps with execlp. Now with path specified\n");
         printf("Done.\n");
         exit(0);}
   
-
+```
 
 ## OUTPUT
 
